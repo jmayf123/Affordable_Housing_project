@@ -1,5 +1,5 @@
 ---
-title: "hg_ah"
+title: "AH_Analysis"
 output: html_notebook
 ---
 
@@ -113,7 +113,7 @@ nearest_ah <- nearest_ah %>%
   filter(group != 'other')
 ```
 
-creating a tpost that is years sale occured after the houseing development
+creating a tpost that is years sale occurred after the housing development
 ```{r}
 nearest_ah <- nearest_ah %>% 
   mutate(
